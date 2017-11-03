@@ -1,13 +1,36 @@
 @import "index.css";
 
-/** {
+* {
   box-sizing: border-box;
   margin: 0;
-  background-color: rgba(0,0,0,0.1);
 }
 
 
 #contact-box {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
-}*/
+
+}
+
+.nav {
+  height: 50px;
+  width: 100vw;
+  background-color: #24292e;
+  margin: 0 auto;
+
+}
+
+.nav-buttons {
+  color: #999;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.nav-buttons:hover {
+  color: white;
+}
+
+.gitpub_icon {
+  margin-top: 5px;
+}
