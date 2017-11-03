@@ -17,4 +17,10 @@ describe 'App' do
     expect(last_response).to be_ok
     expect(last_response.body).to include('Hello World')
   end
+
+  it "/contact renders the contact page" do
+    get '/contact'
+    expect(last_response).to be_ok
+    expect(last_response.body).to include('Contact')
+  end
 end
