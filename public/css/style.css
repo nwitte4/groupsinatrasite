@@ -9,3 +9,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
 }
+
+.nav {
+  color: white;
+  height: 50px;
+  width: 100vw;
+  background-color: #333;
+}
