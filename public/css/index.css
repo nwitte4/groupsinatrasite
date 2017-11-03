@@ -17,6 +17,7 @@
   display: grid;
   grid-gap: 1em;
   grid-auto-rows: minmax(70px, auto);
+  margin-top: 25px;
 }
 .paragraph-one{
   margin-left: 100px;
