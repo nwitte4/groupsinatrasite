@@ -19,7 +19,6 @@
   width: 100vw;
   background-color: #24292e;
   margin: 0 auto;
-
 }
 
 .nav-buttons {
@@ -35,4 +34,16 @@
 
 .gitpub_icon {
   margin-top: 5px;
+}
+
+.footer {
+  position: relative;
+  height: 50px;
+  width: 100vw;
+  margin: 0 auto;
+  background-color: #24292e;
+  color: #999;
+  font-family: sans-serif;
+  text-align: right;
+  padding: 20px;
 }
