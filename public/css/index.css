@@ -1,9 +1,3 @@
-/** {
-  box-sizing: border-box;
-  margin: 0;
-  background-color: rgba(0,0,0,0.1);
-}*/
-
 
 .parallax {
       /* The image used */
@@ -16,5 +10,32 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px;
+  text-align: center;
+}
+
+.home-box{
+  display: grid;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(70px, auto);
+}
+.paragraph-one{
+  margin-left: 100px;
+  margin-right: 500px;
+  border: 1px dashed black;
+  padding: 20px;
+  text-align: center;
+}
+.paragraph-two{
+  margin-left: 300px;
+  margin-right: 100px;
+  border: 1px dashed black;
+  padding: 20px;
+  text-align: center;
+}
+.paragraph-three{
+  margin-left: 100px;
+  margin-right: 500px;
+  border: 1px dashed black;
+  padding: 20px;
   text-align: center;
 }
