@@ -1,13 +1,15 @@
+@import "index.css";
+
 * {
   box-sizing: border-box;
   margin: 0;
-  /*background-color: rgba(0,0,0,0.1);*/
 }
 
 
 #contact-box {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
+
 }
 
 .nav {
