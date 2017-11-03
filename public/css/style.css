@@ -13,6 +13,8 @@
 }
 
 .nav {
+  position: fixed;
+  z-index: 999;
   height: 50px;
   width: 100vw;
   background-color: #24292e;
