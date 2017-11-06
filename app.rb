@@ -18,8 +18,8 @@ get '/menu' do
 end
 
 post '/' do
-  binding.pry
   from = Email.new(email: params['email'])
+  p params['email']
   to = Email.new(email: 'alessandro.braidotti@gmail.com')
   subject = 'Sending with SendGrid is Fun'
   content = Content.new(type: 'text/plain', value: params['body'])
