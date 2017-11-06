@@ -3,13 +3,15 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
 }
 
 
 #contact-box {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
-
+  margin-top: 40px;
 }
 
 .nav {
